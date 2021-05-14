@@ -1,0 +1,234 @@
+@import url(fonts.css);
+
+body {
+	font-family: hv;
+	margin: 0;
+	padding: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+#topmenu {
+	background: url("../images/logo.png") no-repeat 12% 50%, linear-gradient(180deg, #fff, #e2e2e2);
+	border-bottom: 1px solid #ccc;
+	height: 117px;
+	
+}
+
+#topmenu  ul {
+	float: right;
+	list-style: none;
+	margin: 0;
+}
+
+#topmenu li {
+	float: left;
+}
+
+#topmenu a {
+	background-position: center 33%;
+	background-repeat: no-repeat;
+	color: #545454;
+	display: inline-block;
+	height: 62px;
+	padding-top: 55px;
+	text-align: center;
+	text-decoration: none;
+	width: 107px;
+}
+
+#topmenu a:hover {
+	/* background-position: center 35%; */
+	border-bottom: 4px solid #ff7d00;
+	border-left: 1px solid #c9c9c9;
+	border-right: 1px solid #b8b1b1;
+	height: 58px;
+	width: 105px;
+}
+
+#topmenu #home a {
+	background-image: url("../images/home.png");
+}
+
+#topmenu #home a:hover {
+	background-image: url("../images/home.png"), linear-gradient(180deg, #fff, #cac2c2);
+}
+
+#topmenu #gallery a {
+	background-image: url("../images/gallery.png");
+}
+
+#topmenu #gallery a:hover {
+	background-image: url("../images/gallery.png"), linear-gradient(180deg, #fff, #cac2c2);
+}
+
+#topmenu #members a {
+	background-image: url("../images/members.png");
+}
+
+#topmenu #members a:hover {
+	background-image: url("../images/members.png"), linear-gradient(180deg, #fff, #cac2c2);
+}
+
+#topmenu #logout a {
+	background-image: url("../images/logout.png");
+}
+
+#topmenu #logout a:hover {
+	background-image: url("../images/logout.png"), linear-gradient(180deg, #fff, #cac2c2);
+}
+
+#content h1 {
+	text-align: center;
+	font-family: hvb;
+	color: #565555;
+	font-size: 300%;
+}
+
+#content #form_upload {
+	margin: 0 auto;
+	width: 50%;
+}
+
+#content .file_form {
+	border: 1px solid #cacaca;
+	border-radius: 3px;
+	cursor: pointer;
+	float: left;
+	position: relative;
+	height: 46px;
+	padding: 2px;
+	margin-right: 13px;
+	width: 60%;
+}
+
+#content .file_form .shadow {
+	box-shadow: 0 0 3px 3px #e2dada;
+}
+
+#content .file_form input[type="file"] {
+	cursor: pointer;
+	height: 46px;
+	opacity: 0;
+	left: 0;
+	top: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 10;
+}
+
+#content .file_form .file_button {
+	font-family: hvr;
+	background-color: #c1bfbf; 
+	color: #fff;
+	float: right;
+	height: 22px;
+	padding: 8px 14px;
+	margin-right: 4px;
+	margin-top: 5px;
+	border-radius: 3px;
+}
+
+#content input[type="submit"] {
+	height: 50%;
+	border: none;
+	font-size: 150%;
+	font-weight: bold;
+	font-family: hv;
+	padding: 10px 27px;
+	background: linear-gradient(180deg, #ffa400, #ff6700);
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+}
+
+#content input[type="submit"]:hover {
+	background: linear-gradient(180deg, #ff6700, #ffa400);
+}
+
+#photos {
+	margin: 40px auto 0;
+	display: table;
+}
+
+#photos .row {
+	margin: 40px 0;
+}
+
+#photos .photo {
+	box-shadow: 0 0 3px 1px #eaeaea;
+	float: left;
+	margin: 0 15px;
+	color: #979393;
+	padding: 5px;
+	border: 1px solid #d6d6d6;
+}
+
+#photos .photo .main_photo {
+	width: 100%;
+}
+
+#photos .photo .date {
+	margin: -33px 0 0 7px;
+	font-size: 130%;
+	display: block;
+	color: #f0efef;
+	font-family: bn;
+}
+
+#photos .border {
+	border-bottom: 1px solid #e0dfdf;
+	margin-top: 5px;
+	padding-bottom: 7px;
+}
+
+#photos .text {
+	float: left;
+	margin: 13px 8px;
+	font-size: 108%;
+	margin-right: 11px;
+}
+
+#photos .favorites {
+	margin-top: 12px;
+	cursor: pointer;
+}
+
+#photos .share {
+	float: right;
+}
+
+#photos .share p {
+	float: left;
+	margin-right: 10px;
+}
+
+#photos .icon {
+	background: url("../images/bg_share.png") no-repeat;
+	float: left;
+	cursor: pointer;
+	height: 19px;
+	padding-top: 3px;
+	margin: 15px 3px 0;
+	text-align: center;
+	width: 22px;
+}
+
+#photos .icon:hover {
+	background: url("../images/bg_share_active.png") no-repeat;
+}
+
+#photos .shadow {
+	box-shadow: 0 2px 11px 4px #e6e6e6;
+	margin-left: -2px;
+	width: 102%;
+}
+
+footer p {
+	padding-right: 20px;
+	color: #8b8a8a;
+	font-family: arial;
+	text-align: right;
+}
